@@ -383,3 +383,7 @@
 .icon-kecheng:before {
   content: "\e64f";
 }
+
+.icon-right:before {
+  content: "\e6a3";
+}

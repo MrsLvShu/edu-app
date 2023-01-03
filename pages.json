@@ -13,8 +13,9 @@
             "path" : "pages/study/study",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "学习",
-                "enablePullDownRefresh": false
+                "navigationBarTitleText": "学习进度",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
             }
             
         }
@@ -23,7 +24,370 @@
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#5ccc84",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							{
+								"float": "right",
+								"type": "menu"
+							}
+						]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/setting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "设置",
                 "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "编辑资料",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的订单",
+				"navigationBarBackgroundColor": "#fff",
+				"enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/message/message",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "消息列表",
+                "enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#fff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/collect/collect",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "收藏列表",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/coupon",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的优惠券",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/question",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "常见问题",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/forget/forget",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "忘记密码",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView":false
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/mobile-bind/mobile-bind",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "绑定手机",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/user-safe/user-safe",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改密码",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+				"navigationBarBackgroundColor": "#fff",
+                "app-plus": {
+                    "titleNView": {
+                    	"autoBackButton": false, 
+                    	"searchInput": {
+                    		"align": "left",
+                    		"placeholder": "输入搜索关键词",
+                    		"borderRadius":"30rpx",
+                    		"backgroundColor":"#f6f9fb"
+                        },
+                        "buttons": [
+                    	{
+                    		"float": "right",
+                    		"text": "搜索",
+                    		"fontSize":"15",
+                    		"color":"#2A333B"
+                    	}
+                    ]}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/search-result",
+            "style" :                                                                                    
+            {
+                "navigationBarBackgroundColor": "#fff",
+                "app-plus": {
+                    "titleNView": {
+                    	"autoBackButton": false, 
+                    	"searchInput": {
+							"disabled": true,
+                    		"align": "left",
+                    		"placeholder": "输入搜索关键词",
+                    		"borderRadius":"30rpx",
+                    		"backgroundColor":"#f6f9fb"
+                        }
+                    }
+                }
+            }
+            
+        }
+        ,{
+            "path" : "pages/course/course",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/create-order/create-order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "创建订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/list/list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/webview/webview",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/text-list/text-list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "考场列表",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/book-list/book-list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "电子书列表",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/bbs/bbs",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff",
+				"app-plus": {
+					"titleNView": {
+						"searchInput": {
+							"align": "center",
+							"placeholder": "输入搜索帖子",
+							"backgroundColor": "#f5f5f4"
+						},
+						"buttons": [
+							{
+								"float": "right",
+								"fontSrc": "/static/iconfont.ttf",
+								"text": "\ue682",
+								"fontSize": "17"
+							}
+						]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/my-post/my-post",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的帖子",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my-text/my-text",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的考试",
+                "enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#fff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/test-detail/test-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "开始考试",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/add-post/add-post",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新增帖子",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							{
+								"text": "发布",
+								"fontSize": "15"
+							}
+						]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/post-detail/post-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "帖子详情",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/index-skeleton",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/column/column",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/live/live",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my-book/my-book",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的电子书",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/book-detail/book-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
             }
             
         }
